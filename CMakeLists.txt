@@ -24,10 +24,10 @@ set(CMAKE_BUILD_TYPE "Debug")
 add_compile_options(-Wall -Wextra -Wshadow -Wpedantic) # fsanitize=undefined -fsanitize=address
 
 
-add_subdirectory(third_party/googletest)
-add_subdirectory(third_party/benchmark)
+# add_subdirectory(third_party/googletest)
+# add_subdirectory(third_party/benchmark)
 
 
-add_executable(test_benchmark test_benchmark.cc)
-add_executable(test_gtest test_gtest.cc)
+# add_executable(test_benchmark test_benchmark.cc)
+# add_executable(test_gtest test_gtest.cc)
 add_executable(main main.cc)
